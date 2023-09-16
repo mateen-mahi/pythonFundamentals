@@ -14,7 +14,7 @@ The `hello.py` file contains Python code with comments. The comments provide ins
 1. **Clone the Repository**: Clone this repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone [https://github.com/your-username/your-repo.git](https://github.com/mateen-mahi/pythonFundamentals.git)
 
 ## Code Exploration and Contribution Guide
 
