@@ -1,6 +1,6 @@
 # Python Code Exploration - hello.py
 
-Welcome to the Python Code Exploration repository! In this repository, we have a Python file named `hello.py` containing code with comments. The purpose of this repository is to encourage learning and collaboration by exploring and explaining the code. You're welcome to explore the code, run it, and add explanations if you understand the concepts.
+Welcome to the Python Code Exploration repository! In this repository, we have a Python file named `hello.py` containing code with comments and a text file named `PythonHelping.txt` containing some important points. The purpose of this repository is to encourage learning and collaboration by exploring and explaining the code. You're welcome to explore the code, run it, and add explanations if you understand the concepts.
 
 ## About the `hello.py` File
 
@@ -56,7 +56,7 @@ Contributions are highly welcome! If you would like to contribute to this reposi
 
 ### Contact
 
-If you encounter any issues or have questions related to the code, feel free to contact me at +921418406. I'm here to assist you!
+If you encounter any issues or have questions related to the code, feel free to contact me at +923041418406. I'm here to assist you!
 
 ### Happy Exploring!
 
