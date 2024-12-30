@@ -1,0 +1,163 @@
+0 != horizontal sign like (&)
+
+
+(1) 3 Inputs in one line with comma
+(2) get name and age if name start with s or m and age is greater than 19 then user can play game else not 
+(3) wap that take a set of numbers as a string and return sum of them ex "12345" = 15
+(4) wap that take a name and tells us how many times alphabet are being used 
+(5) wap that take list and return square of each number 
+(6) number guessing game that also tells us in  how many time tries  we guess a number 
+(7) insert , append ,pop,del,extend  (.join("")) etc 
+(8) get three inputs name,age and songs that return as dictionary 
+(9) get a list of all numbers and return two list odd and even
+(10) number nine task with list comprehension
+(11) return a dictionary that represents numbers in keys and odd and even in values
+(12) use list comprehension to do task 11
+(13) get a list and return first character  of all strings in a set 
+(14) do task 13 with set comprehension
+(15) take more than two arguments and return multiplication  of all numbers and add them with first number
+(16) input a list and return true if len is greater than 5 (lambda)
+(17) input a list and return dictionary with all strings with their index 
+(18) iterators , iterable, decorator functions and doe strings
+(19) full os 
+(20) extract url from html file and append them into text file 
+(21) in OOPS take name and numbers and return Average of that student 
+(22) take two inputs account number and balance and return three methods debit , credit and check balance 
+(23) create circle class that take radius and tells  area , diameter and perimeter 
+(24) do the same thing for triangle , rectangle and square 
+(25) create a function that stores item and it's price and a dunder function that convey order1.price is > order2.price
+
+
+
+
+
+
+
+
+
+
+
+range(start,stop,step)
+palindrome (words that are same in ascending and descending orders ex sas, )
+recursion  (factorial (n) = n * factorial(n-1) )
+escape sequence (The escape character allows you to use double quotes when you normally would not be allowed:)
+Casting Conversion (for EX String into Integer)
+Numerated / denominated if -/+ = - in other cases answer will be positive 
+Linear Search , Average [ sum of all numbers / totalNumbers ] 
+Percentage [(totalNumber*percentageNumber) /100  or (totalNumber/actualNumber)*100] 
+Set Items , Strings and tuples are immutable but sets are mutable, Un duplicate ,
+set() = empty set, set1.setUnion(set2) , set1.setIntersection(set2)
+dic.get return None instead of an error 
+dictionary methods keys , values ,Update ,Items get(key)
+NOT() > AND > OR 
+in file system 
+r+ = read + overwrite  (pointer Start ) no truncate 
+W+ = ================================== truncate
+0+ = read + append (pointer End) no truncate
+#decorator
+@staticmethods those methods who don't  have self parameter and they work at class level 
+@classmethod when we write this before a method it will take cls attribute that represent the properties of class 
+@property we use to convert  method into property that return some functionality  
+@getter
+@setter
+del --------> keyword  to remove created object ( del obj1.name or del obj1)
+we write two underscore for private Methods (self.__password= password ) so that won't be accessible outside of class 
+
+
+
+
+OOPS (object oriented programming)
+
+
+Class is a blue print for creating objects it can store two things data(attributes) and methods
+Instance is an object 
+__init__ Function is a Constructor that is called when the object is Initiated if we don't define a Constructor
+python automatically creates for us 
+Constructor takes self parameter that represent created instance 
+Attributes 
+Class Attributes (data that is same for every instance )
+Object / Instance Attributes (data that is different for every instance )
+methods are also functions that are created inside class (they also take self parameter either we use it or don't )
+
+
+
+four pillars of OOPS are 
+(1) abstraction (2) Encapsulation (3) Inheritance (4) Polymorphism 
+
+
+Abstraction
+Hiding the implementation details from a class and showing the essential feature to the user (car start)
+
+
+Encapsulation
+Wrapping the data and functions into a single Unit (object) (Normal work)
+
+
+
+Inheritance
+when a class (child / derived ) derives the properties of another class (parent / base)
+super() method is used to access the methods of parent class (super().__init__ method(name) or super().method())
+
+
+
+5 Type of inheritance 
+Inherit values or methods from Base classes is called inheritance. 
+(1) Single inheritance
+(2)Multilevel inheritance
+(3)Multiple inheritance
+(4)Hierarchical inheritance
+(5)Hybrid inheritance
+
+
+
+
+
+Polymorphism
+
+Operator Overload   
+when the same operator is allowed to  have different meanings according to the context
+Operators and Dunder  functions 
+(1) a + b ==== a.__add__(b)
+(2) a - b ==== a.__sub__(b)
+(3) a * b ==== a.__mul__(b)
+(4) a / b ==== a.__truediv__(b)
+(5) a % b ==== a.__mod__(b)
+
+
+
+class Order:
+    def __init__(self,item , price):
+        self.item = item
+        self.price = price
+
+    def __gt__(self, others):
+        return self.price > others.price
+
+
+
+obj1 = Order("Cream" , 500)
+odr2 = Order("Perfume" , 200)
+odr3 = Order("Perfume" , 500)
+
+
+print(odr2 > odr3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
